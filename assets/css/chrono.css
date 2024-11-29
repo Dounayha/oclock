@@ -1,0 +1,78 @@
+/* assets/css/chrono.css */
+
+/* Style du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Conteneur du chronomètre */
+.stopwatch-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Titre du chronomètre */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Affichage du temps */
+#time-display {
+    font-size: 3em;
+    color: #e74c3c; /* Couleur rouge pour le temps */
+    margin: 20px 0;
+}
+
+/* Styles des boutons */
+.stopwatch-controls button {
+    background-color: #3498db; /* Couleur bleue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.stopwatch-controls button:disabled {
+    background-color: #bdc3c7; /* Couleur grise pour les boutons désactivés */
+    cursor: not-allowed;
+}
+
+.stopwatch-controls button:hover:not(:disabled) {
+    background-color: #2980b9; /* Couleur plus foncée au survol */
+}
+
+/* Styles pour les temps des tours */
+.lap-times {
+    margin-top: 20px;
+}
+
+.lap-times h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+#laps-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#laps-list li {
+    font-size: 1.2em;
+    color: #555;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}

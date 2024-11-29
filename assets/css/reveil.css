@@ -1,0 +1,62 @@
+/* styles pour le réveil */
+.clock {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.alarm {
+    font-size: 24px;
+    color: #ff0000; /* couleur rouge pour l'alarme */
+}
+
+.button {
+    background-color: #4CAF50; /* vert */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049; /* vert plus foncé au survol */
+}
+
+/* Ajouts pour le réveil */
+.alarm-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.alarm-inputs {
+    margin-bottom: 20px;
+}
+
+#alarm-time {
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#alarm-message {
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+}
+
+#alarms-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.alarm-item {
+    font-size: 18px;
+    margin: 5px 0;
+}
